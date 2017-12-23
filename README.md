@@ -64,6 +64,7 @@ tensorboard 解析 log 并做数据可视化。
 $ python softmax_with_log.py
 ```
 找到log文件夹中，events.out.tfevents文件，比如在我的电脑，打开log里面有regression-run-20171223_091736文件夹，再打开有train文件夹，再打开，看到events.out.tfevents.1513991863.TANZI-PC文件
+
 在另外 1 个 terminal 中执行
 
 ```bash
