@@ -24,7 +24,7 @@ $ python gen_captcha.py -n 1000 -d
 训练
 
 ```bash
-$ time python simple_softmax.py
+$ python simple_softmax.py
 data loaded
 train images: 10000. test images: 2000
 label_size: 10, image_size: 6000
@@ -85,7 +85,7 @@ $ tensorboard --logdir=log
 4. 训练时间 5min. 10k steps，GTX 1080
 
 ```bash
-$ time python conv_captcha.py
+$ python conv_captcha.py
 data loaded
 train images: 10000. test images: 2000
 label_size: 10, image_size: 6000
