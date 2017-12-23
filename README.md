@@ -20,6 +20,7 @@ Solve captcha using TensorFlow
 ```bash
 $ python gen_captcha.py -n 1000 -d
 ```
+如果不是1000组，假如设置400次，训练时的命令行应带上参数 --data_dir images/char-1-groups-400/ 
 
 训练
 
@@ -62,11 +63,11 @@ tensorboard 解析 log 并做数据可视化。
 ```bash
 $ python softmax_with_log.py
 ```
-
+找到log文件夹中，events.out.tfevents文件，比如在我的电脑，打开log里面有regression-run-20171223_091736文件夹，再打开有train文件夹，再打开，看到events.out.tfevents.1513991863.TANZI-PC文件
 在另外 1 个 terminal 中执行
 
 ```bash
-$ tensorboard --logdir=log
+$ tensorboard --logdir=events.out.tfevents文件所在目录
 ```
 
 浏览器中打开 `http://127.0.0.1:6006/`
