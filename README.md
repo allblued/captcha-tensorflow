@@ -70,7 +70,8 @@ $ tensorboard --logdir=log
 ```
 
 浏览器中打开 `http://127.0.0.1:6006/`
-也可使用 matplotlib 第三方可视化
+
+也可使用 matplotlib 第三方可视化：`http://blog.csdn.net/jerry81333/article/details/52979206`
 
 ![](img-doc/m1-softmax-accuracy.png)
 ![](img-doc/m1-softmax-loss.png)
